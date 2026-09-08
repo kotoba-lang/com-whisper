@@ -13,7 +13,7 @@
   `stream-transcribe` is fixture-driven (partial Segments → final Transcription)
   so denwaban's barge-in can be tested without a socket. Live audio ingest is
   outward-gated (G7) and lands in a later R-cycle — `solve` raises at R0."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def ns-prefix "whisper")
 (def tier "L5")

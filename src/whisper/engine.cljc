@@ -36,7 +36,7 @@
   be measured on converted telephone audio, never on the studio-quality file the
   same sentence produces**. `telephony-conversion` names the conversion so a
   measurement can say which one it ran."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def telephony-format
   "What the carrier delivers, and what whisper needs. Kept as data so a
