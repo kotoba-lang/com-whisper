@@ -32,5 +32,5 @@ materializes against the in-memory `*store*`; streaming is fixture-driven. Live
 audio ingest is outward-gated (G7) and lands in a later R-cycle.
 
 ```
-bb test   # cljc contract test under babashka
+kbb -M:test   # cljc contract test under babashka
 ```
